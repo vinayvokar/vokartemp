@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/CDNSFree2/PrismJS@latest/prism.min.css">
+    <script src="https://cdn.jsdelivr.net/gh/CDNSFree2/PrismJS@latest/prism.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script>
+        $(function()
+        {
+            $('[data-toggle="tooltip"]').tooltip();
+            
+        })
+    </script>
+</head>
+<body>
+      
+        <!--progress Section-->
+
+    <section id="team" class="team section-bg">
+        <div class="container" data-aos="">
+      
+          <div class="section-title">
+            <h2>Tooltip</h2>
+            <p>Use Tooltip to create hint/message in your website</p>
+          </div>
+          <div class="row justify-content-center" style="margin-left:150px;">
+           <div class="col mx-5" >
+               <button class="btn btn-warning mx-5" data-placement="left" title="hello, vokar this side" data-toggle="tooltip">
+                   tooltip
+               </button>
+
+               <button class="btn btn-success mx-5" data-placement="top"  title="hello, vokar this side" data-toggle="tooltip">
+                   tooltip
+               </button>
+               <button class="btn btn-info mx-5" data-placement="bottom" title="hello, vokar this side" data-toggle="tooltip">
+                   tooltip
+               </button>
+               <button class="btn btn-danger mx-5" data-placement="right"  title="bye bye" data-toggle="tooltip">
+                   tooltip
+               </button>
+           </div>
+         </div>
+
+        <!--End progress Section-->
+        <!--Code & explaination-->
+            <div class="my-5">
+                <p class="lead">
+                  <b>Tooltip</b> Use to create hint/message<br> 
+                   it’s completely responsive and it is compatible with all device (Desktop,tablet,mobile).
+                </p>
+                <p class="lead pt-3">
+                    <b>Step 1 : </b> Copy <a href="../../starter/starter.html">Starter template</a> ( "ignore if you already made ").
+                 </p>
+    
+                 <p class="lead pt-3">
+                    <b>Step 2 : </b> Copy HTML & jquery code </p>
+                 </p>
+    
+                 <p class="lead pt-3">
+                    <b>Step 3: </b> Paste code and create amazing sites</p>
+                 </p>
+             
+                    
+                   
+                 
+                  <div class="row">
+                      <div class="col-lg-6 line-numbers">
+                        <div class="col-6"><h1>HTML</h1></div>
+                         <pre>
+                             <code class="language-html">
+                 
+                                &#x3C;div class=&#x22;row justify-content-center&#x22; style=&#x22;margin-left:150px;&#x22;&#x3E;
+                                &#x3C;div class=&#x22;col mx-5&#x22; &#x3E;
+                                    &#x3C;button class=&#x22;btn btn-warning mx-5&#x22; title=&#x22;hello, vokar this side&#x22; data-toggle=&#x22;tooltip&#x22;&#x3E;
+                                        tooltip
+                                    &#x3C;/button&#x3E;
+                     
+                                    &#x3C;button class=&#x22;btn btn-success mx-5&#x22;  title=&#x22;hello, vokar this side&#x22; data-toggle=&#x22;tooltip&#x22;&#x3E;
+                                        tooltip
+                                    &#x3C;/button&#x3E;
+                                    &#x3C;button class=&#x22;btn btn-info mx-5&#x22; title=&#x22;hello, vokar this side&#x22; data-toggle=&#x22;tooltip&#x22;&#x3E;
+                                        tooltip
+                                    &#x3C;/button&#x3E;
+                                    &#x3C;button class=&#x22;btn btn-danger mx-5&#x22; title=&#x22;bye bye&#x22; data-toggle=&#x22;tooltip&#x22;&#x3E;
+                                        tooltip
+                                    &#x3C;/button&#x3E;
+                                &#x3C;/div&#x3E;
+                              &#x3C;/div&#x3E;
+                         </code>
+                </pre>
+        </div>
+        <div class="col-lg-6 line-numbers">
+            <div class="col-6"><h1>jquery</h1></div>
+            <pre>
+                <code class="language-jquery">
+    
+                    &#x3C;script&#x3E;
+                    $(function()
+                    {
+                        $(&#x27;[data-toggle=&#x22;tooltip&#x22;]&#x27;).tooltip();
+                        
+                    })
+                &#x3C;/script&#x3E;
+            </code>
+   </pre>
+</div>
+    </div>
+</section>
+
+<!--End Code & explaination-->
+
+</body>
+</html>

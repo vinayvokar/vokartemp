@@ -1,0 +1,363 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #fdd067;
+  text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Raleway', sans-serif;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background: linear-gradient(180deg, #f2f6fa 0%, #fff 100%);
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  color: #213b52;
+}
+
+.section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #fdc134;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+#header {
+  color: #fff;
+  background-color: #273c75;
+}
+
+#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#menu li {
+  display: inline-block;
+}
+#menu li a {
+  color: #fff;
+  padding: 15px 10px;
+  display: block;
+}
+#menu li a:hover {
+  background: #192a56;
+}
+a {
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 1rem;
+  margin-top: 2px;
+}
+#logo span {
+  color: #fdc134;
+}
+#main {
+  background: url('../assets/main.jpg') no-repeat 0 0;
+  background-size: cover;
+}
+#main b {
+  color: #fdc134;
+}
+#main span {
+  color: #fdc134;
+}
+
+.banner-title h3 {
+  color: #fff;
+  margin-top: 90px;
+  font-size: 395%;
+   
+}
+.banner-title p {
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+}
+#main {
+  background-color: #192a56;
+}
+#main form {
+  margin-left: 210px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 25px;
+  padding-top: 10px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+#main input {
+  border-radius: 20px;
+  width: 100%;
+  height: 12%;
+  padding: 15px;
+  padding-bottom: 10px;
+}
+#main form p {
+  color: black;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+#main button {
+  padding-top: 15px;
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 80%;
+  border-radius: 20px;
+}
+#product card-body {
+  background: #7f8c8d;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: #fff;
+  background: #fdc134;
+}
+.team .member {
+  position: relative;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.team .member .pic {
+  overflow: hidden;
+  width: 200px;
+  border-radius: 5%;
+}
+
+.team .member .pic img {
+  transition: ease-in-out 0.3s;
+}
+
+.team .member:hover {
+  transform: translateY(-10px);
+}
+
+.team .member .member-info {
+  padding-left: 30px;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.team .member span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 10px;
+  position: relative;
+  font-weight: 500;
+}
+
+.team .member span::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #cbd6e9;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member p {
+  margin: 10px 0 0 0;
+  font-size: 14px;
+}
+
+.team .member .social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team .member .social a {
+  transition: ease-in-out 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  background: #eff2f8;
+}
+
+.team .member .social a i {
+  color: #37517e;
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+.team .member .social a:hover {
+  background: #47b2e4;
+}
+
+.team .member .social a:hover i {
+  color: #fff;
+}
+
+.team .member .social a + a {
+  margin-left: 8px;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.bg-4 {
+  background-color: #213b52;
+  color: #ffffff;
+}
+
+.person {
+  border: 10px solid transparent;
+  margin-bottom: 25px;
+  width: 80%;
+  height: 80%;
+  opacity: 0.7;
+}
+.person:hover {
+  border-color: #f1f1f1;
+}
+.ss {
+  width: 20%;
+  height: 20%;
+}
+.sss {
+  width: 100%;
+  height: 10%;
+}
+
+#main a
+{
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+#Mycaro
+{
+  max-width: 100%;
+   margin-top:20%;
+  margin-left: 15%;
+  padding:0;
+ 
+}
+.carousel .card
+{
+  width:100%;
+  margin-left: Auto;
+  background: transparent;
+  border:none;
+  padding:0;
+}
+.carousel p{
+  color:#eff2f8;
+}
+.carousel .item .img-box
+{
+  width: 200%;
+  height: auto;
+  margin:0 auto;
+  border:1px solide black;
+  border-radius:50%;
+}
+.carousel .img-box img{
+ width:70%;
+ height: Auto;
+ display:block;
+ border-radius:50%;
+ margin-left: 30px;
+ margin-top: 20px;
+}
+.carousel .carousel-inner .left {
+  margin-top: 60px;
+}
+#Mycaro b{
+  color: #fdc134;
+}
+.carousel hr
+{
+  color: #fff;
+}
+
+.modol .img-box{
+  width: 100px;
+  height: 100px;
+  margin:0 auto;
+  padding:5px;
+  border:1px solide black;
+  border-radius:50%;
+}
+.modal img
+{
+  width:30%;
+  height: 25%;
+  display:block;
+  border-radius:50%;
+  margin-left: 35%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
